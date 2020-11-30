@@ -6,16 +6,16 @@
 </template>
 
 <script>
-import MainTabBar from './components/content/mainTabBar/mainTabBar.vue'
+import MainTabBar from 'components/content/mainTabBar/mainTabBar.vue'
 
 export default {
   name: 'App',
   components: {
-    MainTabBar,
+    MainTabBar
   }
 }
 </script>
 
 <style>
-@import "assets/css/base.css"
+@import "assets/css/base.css";
 </style>
